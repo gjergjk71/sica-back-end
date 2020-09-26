@@ -1,0 +1,39 @@
+{
+  "name": "sica-back-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gjergjk71/sica-back-end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gjergjk71/sica-back-end/issues"
+  },
+  "homepage": "https://github.com/gjergjk71/sica-back-end#readme",
+  "dependencies": {
+    "aws": "0.0.3-2",
+    "bcrypt": "3.0.0",
+    "body-parser": "1.19.0",
+    "compression": "1.7.4",
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "express-async-errors": "3.1.1",
+    "express-jwt": "6.0.0",
+    "jsonwebtoken": "8.5.1",
+    "morgan": "1.10.0",
+    "mysql2": "2.2.5",
+    "sequelize": "6.3.5",
+    "swagger-ui-express": "4.1.4",
+    "uuid": "8.3.0",
+    "yup": "0.29.3"
+  }
+}
